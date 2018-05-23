@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Date="5/22/2013">
+  <Test Name="TestCustomLogonParameters" ApplicationName="CustomLogonParametersExample.Win" Result="Passed" Elapsed="00:00:22.9751421" Started="5/22/2013 4:08:14 PM" MachineName="BELYAKOV-SV-N" IP="172.22.4.51" />
+  <Test Name="TestCustomLogonParameters" ApplicationName="CustomLogonParametersExample.Web" Result="Passed" Elapsed="00:00:38.3739816" Started="5/22/2013 4:08:37 PM" MachineName="BELYAKOV-SV-N" IP="172.22.4.51" />
+</Tests>
