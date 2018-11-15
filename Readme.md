@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Company.cs](./CS/CustomLogonParametersExample.Module/BusinessObjects/Company.cs) (VB: [Company.vb](./VB/CustomLogonParametersExample.Module/BusinessObjects/Company.vb))
+* [Employee.cs](./CS/CustomLogonParametersExample.Module/BusinessObjects/Employee.cs) (VB: [Employee.vb](./VB/CustomLogonParametersExample.Module/BusinessObjects/Employee.vb))
+* [CustomAuthentication.cs](./CS/CustomLogonParametersExample.Module/CustomAuthentication.cs) (VB: [CustomAuthentication.vb](./VB/CustomLogonParametersExample.Module/CustomAuthentication.vb))
+* **[CustomLogonParameters.cs](./CS/CustomLogonParametersExample.Module/CustomLogonParameters.cs) (VB: [CustomLogonParameters.vb](./VB/CustomLogonParametersExample.Module/CustomLogonParameters.vb))**
+* [Updater.cs](./CS/CustomLogonParametersExample.Module/DatabaseUpdate/Updater.cs) (VB: [Updater.vb](./VB/CustomLogonParametersExample.Module/DatabaseUpdate/Updater.vb))
+<!-- default file list end -->
 # OBSOLETE - How to: Use Custom Logon Parameters
 
 
