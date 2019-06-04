@@ -19,7 +19,7 @@ namespace CustomLogonParametersExample.Module {
         }
         void application_CreateCustomLogonWindowObjectSpace(
             object sender, CreateCustomLogonWindowObjectSpaceEventArgs e) {
-            IObjectSpace objectSpace = ((XafApplication)sender).CreateObjectSpace();
+            IObjectSpace objectSpace = ((XafApplication)sender).CreateObjectSpace(typeof(Company));
             ((CustomLogonParameters)e.LogonParameters).ObjectSpace = objectSpace;
             e.ObjectSpace = objectSpace;
         }

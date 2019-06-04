@@ -20,7 +20,7 @@ Namespace CustomLogonParametersExample.Module
             MyBase.Setup(application)
         End Sub
         Private Sub application_CreateCustomLogonWindowObjectSpace(ByVal sender As Object, ByVal e As CreateCustomLogonWindowObjectSpaceEventArgs)
-            Dim objectSpace As IObjectSpace = DirectCast(sender, XafApplication).CreateObjectSpace()
+            Dim objectSpace As IObjectSpace = DirectCast(sender, XafApplication).CreateObjectSpace(GetType(Company))
             CType(e.LogonParameters, CustomLogonParameters).ObjectSpace = objectSpace
             e.ObjectSpace = objectSpace
         End Sub
